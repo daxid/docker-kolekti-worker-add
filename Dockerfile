@@ -1,4 +1,4 @@
-FROM sbonhomme:kolekti-worker
+FROM sbonhomme/kolekti-worker
 
 RUN apt-get update && apt-get install -y \
       python-pandas              \
