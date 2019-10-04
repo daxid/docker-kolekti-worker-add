@@ -4,4 +4,5 @@ FROM sbonhomme/kolekti-worker
 #      python-pandas              && \
 #      rm -rf /var/lib/apt/lists/* \
 
-RUN pip install pandas
+RUN pip install numpy==1.16
+RUN pip install pandas==0.24
